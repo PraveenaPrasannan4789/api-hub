@@ -11,6 +11,8 @@ app.use(helmet());
 
 // Routes
 app.use('/api/users', userRoutes);
+//app.use('/api/customers', customerRoutes);
+
 
 // Error-handling middleware
 app.use(errorHandler);
